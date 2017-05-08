@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+ 
+    
+<style type="text/css">
+.oculto { display: none; }
+.visible { display: inline; }
+</style>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+   </head>
+    
+    <body>
+       <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a  href="#home" aria-controls="informatica" role="tab" data-toggle="tab">INFORMÀTICA</a></li>
+    <li role="presentation"><a href="#mate" aria-controls="profile" role="tab" data-toggle="tab">MATEMÀTICAS</a></li>
+    <li role="presentation"><a href="#quimica" aria-controls="messages" role="tab" data-toggle="tab">QUIMICA</a></li>
+   
+  </ul>
+
+  <!-- Tab panes --> 
+  <div class="tab-content">
+    
+    <div id="home" class="tab-pane fade in active">
+         
+    
+        <div class="container">
+ 
+ 
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Microsoft Word</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Microsoft Word es una aplicaciòn considerada como procesador de Textos,
+        comercialmente esta integrada a un paquete llamado office. Es uno de los procesadores  de Texto mas populares actualmente,
+        con una serie de herramientas que lo hacen ser el favorito de muchos usuarios</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Microsoft Excel</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Microsoft Excel es una aplicaciòn considerada como hoja de calculo,
+        comercialmente esta integrada a un paquete llamado office. Es uno de las hojas electronicas mas populares actualmente,
+        con una serie de herramientas que lo hacen ser el favorito de muchos usuarios</div>
+      </div>
+    </div>
+  
+</div>
+            </div>
+    </div>
+    <div id="mate" class="tab-pane fade">
+        <div class="container">
+             <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Calculadora</h4>
+            </div>
+      <div id="calculos" class="panel-collapse collapse">      
+      <p> operaciones</p>
+        <div class="radio">
+  <label><input type="radio" name="optradio">Suma</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Resta</label>
+</div>
+<div class="radio disabled">
+  <label><input type="radio" name="optradio" disabled>Multiplicacion</label>
+</div>
+      
+      <div class="form-group">
+  <label for="usr">Numero 1:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">Numero 2:</label>
+  <input type="text" class="form-control" id="apell">
+</div>
+      <h2>Resultado:</h2>
+</div>
+             </div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#calculos"> Realiza Operaciones matemáticas</a>
+        </div>
+   
+    </div>
+
+ 
+ 
+
+
+       
+
+    <div id="quimica" class="tab-pane fade">
+          <div class="container">
+              <div class="panel panel-default">
+                  <div class="row"  >
+  <div class="col-sm-4 panel panel-default">Materia:</div>
+  <div class="col-sm-8 panel panel-default">En quimica la materia se define como culaquier cosa que tenga masa en reposo, volumen y se
+      componga de particulas. las particulas que componen la materia tambien poseen masa en reposo, sin embargo
+      ,no todas las paticulas tienen masa en reposo, un ejemplo es el fotón. lamateria puede se una
+      sustancia quimica pura o una mezcla de sustanciasastname</div>
+</div>
+                  <div class="row">
+                  <div class="col-sm-4 panel panel-default">Átomo</div>
+  <div class="col-sm-8 panel panel-default">El atomo es la unidad básica de la quimica. se compone de un núcleo denso llamado núcleo atómico,
+        el cual es rodeado por un espacio denominado nube de electrones, El núcleo se compone de protones 
+        cargados positivamente y neutrones sin carga 8ambos denominados nucleones). La nube de electrones 
+        son electrones que giran alrededor del núcleo cargados negativamente.</div>
+</div>
+      <div class="row" class="panel panel-default" >        
+    <div class="col-sm-4 panel panel-default">Elemento</div>
+  <div class="col-sm-8 panel panel-default">un elemento quimico es una sustancia pura que se compone de un solo tipo de átomo, caracterizado
+    por su número particular de protones en los núcleos de sus atomos , número conocido como número
+    atómico. no necesariamente deben tener el mismo número másico-: átomos de un elemento
+    que tienen diferentes núeros de masa se conocen como isótopos. por
+    ejemplo, todos los atomos con 6 protones en sus núcleos son átomos de carbono, pero
+    los atomos de carbono pueden tener números másivos de 12 a 13.</div>
+</div> 
+<div class="row" class="panel panel-default" >
+ <div class="col-sm-4 panel panel-default">compuestos</div>
+  <div class="col-sm-8 panel panel-default">Un compuesto es una sustancia quimica pura compuesta de más de un elemento. las propiedades de un compuesto tienen poca siilitud con las
+       de sus elementos. la nomenclatura estandar de los compuestos es fijado por la union internacional
+       de Quimica pura y aplicada (IUPAC) ls compuestos organicos
+       se nombran segun el sistema de nomenclatura orgánica. Ademas, el servicio de resumenes Quimicos
+       ha ideado un método para nombrar sustancias quimicas. En este esquema cada sustancia quimica es identificable por un número conocido como número de 
+       registro CAS</div>
+</div>                    
+                 
+              
+     
+     
+      
+                  
+  
+  
+<div>
+    
+    
+    </div>
+              </div>
+  
+          </div>
+    </div>
+  </div>
+       </div>
+</body>
+</html>
